@@ -16,7 +16,7 @@ url='https://masstamilan.dev'
 
 bot=telebot.TeleBot(API_KEY,threaded=True)
 
-app=Flask(__name__)
+# app=Flask(__name__)
 
 def word_checker(movie):
     movie=movie.text
