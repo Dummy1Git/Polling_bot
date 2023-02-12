@@ -3,11 +3,13 @@ from bs4 import BeautifulSoup
 import telebot
 from telebot.types import InlineKeyboardButton, InlineKeyboardMarkup 
 from flask import Flask, request
+from dotenv import load_dotenv
 
+load_dotenv()
 
-# API_KEY=  os.environ.get('API_KEY')
-API_KEY='5659848773:AAE7mT3MfzUwQ1B3TrQIVi6LkECWMb7rgSg'
-WEBHOOK='https://songrequestbot.onrender.com'
+API_KEY = os.getenv('API_KEY')
+# API_KEY='5659848773:AAE7mT3MfzUwQ1B3TrQIVi6LkECWMb7rgSg'
+# WEBHOOK='https://songrequestbot.onrender.com'
 # WEBHOOK= os.environ.get('webhook_url')
 
 url='https://masstamilan.dev'
