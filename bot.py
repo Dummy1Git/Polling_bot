@@ -4,6 +4,7 @@ import telebot
 from telebot.types import InlineKeyboardButton, InlineKeyboardMarkup 
 from flask import Flask, request
 from dotenv import load_dotenv
+import os
 
 load_dotenv()
 
